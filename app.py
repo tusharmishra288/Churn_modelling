@@ -17,9 +17,9 @@ def predict():
         model = joblib.load('project_f') 
         prediction = model.predict(to_predict) 
         if prediction==0:
-            return render_template('index.html',prediction_text="Customer will not be churned")
+            return render_template('index.html',prediction_text="Customer's Balance will not be churned")
         else:
-            return render_template('index.html',prediction_text="Customer will be churned")
+            return render_template('index.html',prediction_text="Customer's Balance will be churned")
       
 
 if __name__=="__main__":
