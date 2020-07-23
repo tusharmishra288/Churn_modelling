@@ -16,7 +16,7 @@ def predict():
         to_predict = np.array(to_predict_list).reshape(1, 17) 
         model = joblib.load('project_f') 
         prediction = model.predict(to_predict) 
-        if prediction==0:
+        if prediction==1:
             return render_template('index.html',prediction_text="Customer's Balance will be churned")
         else:
             return render_template('index.html',prediction_text="Customer's Balance will not be churned")
