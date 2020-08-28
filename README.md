@@ -36,4 +36,6 @@ III. Transactional Information
     • current_month_balance - Average Balance of current month 
     • previous_month_balance - Average Balance of previous month 
     • churn - Average balance of customer falls below minimum balance in the next quarter (1/0) 
-#   Project link-https://customer-churn-price-predict.herokuapp.com/
+#   Project link
+
+    https://customer-churn-price-predict.herokuapp.com/
